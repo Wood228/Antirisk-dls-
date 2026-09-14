@@ -3,7 +3,8 @@
   "package": "wood228.antirisk.hitbox.mixin",
   "compatibilityLevel": "JAVA_21",
   "client": [
-    "EntityMixin"
+    "EntityMixin",
+    "GameRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1
