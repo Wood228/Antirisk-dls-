@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "antirisk_hitbox",
+  "version": "${version}",
+  "name": "Antirisk Hitbox",
+  "description": "Client-side hitbox expansion for Minecraft 1.21.4 Fabric.",
+  "authors": ["Wood228"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "wood228.antirisk.hitbox.AntiriskHitboxClient"
+    ]
+  },
+  "mixins": [
+    "antirisk_hitbox.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
